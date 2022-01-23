@@ -220,3 +220,7 @@ $(call inherit-product, vendor/gms/products/gms.mk)
 
 # Lawnchair
 include vendor/lawnchair/lawnchair.mk
+
+# Repainter 
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
