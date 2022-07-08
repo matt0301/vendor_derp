@@ -153,6 +153,18 @@ endif
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.storage_manager.enabled=true
 
+# Rice properties
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.rice.maintainer=matt0301 \
+    ro.rice.code=Shinju \
+    ro.rice.packagetype=GAPPS \
+    ro.rice.releasetype=OFFICIAL \
+    ro.rice.version=1.0 \
+    ro.rice.build.version=12.1 \
+    ro.rice.display.version?=$(LINEAGE_DISPLAY_VERSION) \
+    ro.rice.platform_release_codename=Shinju \
+    ro.rice.chipset=Snapdragon855+ \
+
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
     procmem
