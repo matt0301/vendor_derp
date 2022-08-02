@@ -217,3 +217,6 @@ include vendor/derp/config/version.mk
 # GApps
 WITH_GMS := true
 $(call inherit-product, vendor/gms/products/gms.mk)
+
+# Lawnchair
+include vendor/lawnchair/lawnchair.mk
